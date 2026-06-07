@@ -46,7 +46,7 @@ The project is built to run on a **Kaggle Notebook** (TensorFlow / Keras come pr
 1. Create a new notebook on Kaggle and upload `AZ_Handwritten_CNN.ipynb` (File → Import Notebook).
 2. Click **Add Input** and search for *A-Z Handwritten Alphabets in CSV format*; add it.
    The notebook finds the CSV automatically under `/kaggle/input`.
-3. Turn on the **GPU** accelerator (Settings → Accelerator → GPU).
+3. Turn on the **GPU** accelerator (Settings → Accelerator → GPU T4 x2).
 4. Run all cells (Run → Run All).
 
 On the full 372,451 images, a complete run takes roughly **30–45 minutes** on a Kaggle GPU.
