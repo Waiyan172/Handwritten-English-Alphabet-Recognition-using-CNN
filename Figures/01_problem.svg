@@ -1,0 +1,40 @@
+<svg width="100%" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Panel 1 — Practical problem</title>
+<!-- background -->
+<rect x="4" y="4" width="312" height="212" rx="12" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<!-- header -->
+<rect x="4" y="4" width="312" height="36" rx="12" fill="#D85A30"/>
+<rect x="4" y="28" width="312" height="12" fill="#D85A30"/>
+<circle cx="24" cy="22" r="12" fill="#712B13"/>
+<text x="24" y="22" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="white" font-family="sans-serif">1</text>
+<text x="165" y="22" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="white" font-family="sans-serif">Practical Problem</text>
+
+<!-- prescription icon -->
+<rect x="40" y="56" width="60" height="76" rx="6" fill="#F0997B" stroke="#993C1D" stroke-width="1"/>
+<text x="70" y="76" text-anchor="middle" font-size="16" font-weight="500" fill="#712B13" font-family="sans-serif">Rx</text>
+<line x1="52" y1="90" x2="88" y2="90" stroke="#993C1D" stroke-width="1.5"/>
+<line x1="52" y1="102" x2="88" y2="102" stroke="#993C1D" stroke-width="1.5"/>
+<line x1="52" y1="114" x2="78" y2="114" stroke="#993C1D" stroke-width="1.5"/>
+
+<!-- alert triangle -->
+<polygon points="170,58 210,120 130,120" fill="#D85A30" opacity="0.85"/>
+<text x="170" y="108" text-anchor="middle" font-size="22" font-weight="500" fill="white" font-family="sans-serif">!</text>
+
+<!-- labels -->
+<text x="70" y="150" text-anchor="middle" font-size="12" fill="#712B13" font-family="sans-serif">Handwritten Rx</text>
+<text x="170" y="150" text-anchor="middle" font-size="12" fill="#712B13" font-family="sans-serif">Patient harm risk</text>
+
+<!-- arrow between -->
+<line x1="106" y1="94" x2="128" y2="94" stroke="#993C1D" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#993C1D" stroke-width="1.5" stroke-linecap="round"/>
+</marker>
+</defs>
+
+<!-- description -->
+<text x="165" y="172" text-anchor="middle" font-size="12" fill="#712B13" font-family="sans-serif">OCR · document digitisation</text>
+<text x="165" y="188" text-anchor="middle" font-size="12" fill="#712B13" font-family="sans-serif">assistive technology</text>
+<text x="165" y="204" text-anchor="middle" font-size="11" fill="#993C1D" font-family="sans-serif">→ need for reliable letter recognition</text>
+</svg>

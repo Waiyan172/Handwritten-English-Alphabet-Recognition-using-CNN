@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Panel 3 — Preprocessing and augmentation</title>
+<rect x="4" y="4" width="312" height="212" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<rect x="4" y="4" width="312" height="36" rx="12" fill="#1D9E75"/>
+<rect x="4" y="28" width="312" height="12" fill="#1D9E75"/>
+<circle cx="24" cy="22" r="12" fill="#085041"/>
+<text x="24" y="22" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="white" font-family="sans-serif">3</text>
+<text x="165" y="22" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="white" font-family="sans-serif">Preprocessing &amp; Augmentation</text>
+
+<!-- original letter -->
+<rect x="22" y="52" width="56" height="56" rx="6" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+<text x="50" y="82" text-anchor="middle" dominant-baseline="central" font-size="28" font-weight="500" fill="#085041" font-family="sans-serif">A</text>
+<text x="50" y="116" text-anchor="middle" font-size="11" fill="#0F6E56" font-family="sans-serif">original</text>
+
+<!-- augmented versions: rotated, shifted, zoomed -->
+<rect x="96" y="52" width="46" height="46" rx="5" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.8" transform="rotate(-11,119,75)"/>
+<text x="120" y="78" text-anchor="middle" dominant-baseline="central" font-size="20" font-weight="500" fill="#085041" font-family="sans-serif" transform="rotate(-11,120,78)">A</text>
+<text x="119" y="116" text-anchor="middle" font-size="11" fill="#0F6E56" font-family="sans-serif">rotate ±11°</text>
+
+<rect x="155" y="56" width="40" height="40" rx="5" fill="#5DCAA5" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="178" y="79" text-anchor="middle" dominant-baseline="central" font-size="18" font-weight="500" fill="#085041" font-family="sans-serif">A</text>
+<text x="175" y="116" text-anchor="middle" font-size="11" fill="#0F6E56" font-family="sans-serif">translate ±10%</text>
+
+<rect x="212" y="60" width="34" height="34" rx="5" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="235" y="79" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="500" fill="#085041" font-family="sans-serif">A</text>
+<rect x="256" y="52" width="50" height="50" rx="5" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="281" y="79" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#085041" font-family="sans-serif">A</text>
+<text x="265" y="116" text-anchor="middle" font-size="11" fill="#0F6E56" font-family="sans-serif">zoom ±10%</text>
+
+<!-- divider -->
+<line x1="14" y1="128" x2="306" y2="128" stroke="#9FE1CB" stroke-width="0.8"/>
+
+<!-- normalisation bar -->
+<text x="22" y="144" font-size="12" font-weight="500" fill="#085041" font-family="sans-serif">Normalise pixels:</text>
+<rect x="22" y="152" width="120" height="14" rx="4" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.5"/>
+<text x="82" y="159" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#633806" font-family="sans-serif">0–255 (raw)</text>
+<text x="152" y="159" text-anchor="middle" font-size="12" fill="#085041" font-family="sans-serif">→</text>
+<rect x="162" y="152" width="120" height="14" rx="4" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="222" y="159" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#085041" font-family="sans-serif">0–1 (normalised)</text>
+
+<!-- class weights -->
+<text x="22" y="182" font-size="12" font-weight="500" fill="#085041" font-family="sans-serif">Class weights (balanced):</text>
+<rect x="22"  y="190" width="80" height="10" rx="3" fill="#EF9F27" opacity="0.9"/>
+<text x="108" y="197" dominant-baseline="central" font-size="10" fill="#633806" font-family="sans-serif">O · S  (majority)</text>
+<rect x="22"  y="204" width="30" height="10" rx="3" fill="#D85A30" opacity="0.9"/>
+<text x="58" y="211" dominant-baseline="central" font-size="10" fill="#993C1D" font-family="sans-serif">F · I  (minority — up-weighted)</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg width="100%" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Panel 8 — SHAP explainability</title>
+<rect x="4" y="4" width="312" height="212" rx="12" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<rect x="4" y="4" width="312" height="36" rx="12" fill="#993C1D"/>
+<rect x="4" y="28" width="312" height="12" fill="#993C1D"/>
+<circle cx="24" cy="22" r="12" fill="#712B13"/>
+<text x="24" y="22" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="white" font-family="sans-serif">8</text>
+<text x="165" y="22" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="white" font-family="sans-serif">SHAP Explainability</text>
+
+<!-- SHAP pixel grid icon -->
+<rect x="20" y="50" width="16" height="16" rx="2" fill="#E24B4A" opacity="0.9"/>
+<rect x="40" y="50" width="16" height="16" rx="2" fill="#85B7EB" opacity="0.7"/>
+<rect x="60" y="50" width="16" height="16" rx="2" fill="#E24B4A" opacity="0.6"/>
+<rect x="20" y="70" width="16" height="16" rx="2" fill="#85B7EB" opacity="0.5"/>
+<rect x="40" y="70" width="16" height="16" rx="2" fill="#E24B4A" opacity="0.9"/>
+<rect x="60" y="70" width="16" height="16" rx="2" fill="#85B7EB" opacity="0.8"/>
+<rect x="20" y="90" width="16" height="16" rx="2" fill="#E24B4A" opacity="0.4"/>
+<rect x="40" y="90" width="16" height="16" rx="2" fill="#85B7EB" opacity="0.9"/>
+<rect x="60" y="90" width="16" height="16" rx="2" fill="#E24B4A" opacity="0.7"/>
+
+<!-- legend -->
+<rect x="90" y="56" width="14" height="14" rx="2" fill="#E24B4A"/>
+<text x="108" y="63" dominant-baseline="central" font-size="11" font-weight="500" fill="#A32D2D" font-family="sans-serif">Positive (red) — pushes score UP</text>
+<rect x="90" y="78" width="14" height="14" rx="2" fill="#85B7EB"/>
+<text x="108" y="85" dominant-baseline="central" font-size="11" font-weight="500" fill="#185FA5" font-family="sans-serif">Negative (blue) — pushes score DOWN</text>
+<text x="90" y="106" font-size="11" fill="#993C1D" font-family="sans-serif">Method: DeepExplainer (Shapley values)</text>
+
+<!-- divider -->
+<line x1="10" y1="118" x2="310" y2="118" stroke="#F0997B" stroke-width="0.8"/>
+<text x="160" y="130" text-anchor="middle" font-size="12" font-weight="500" fill="#712B13" font-family="sans-serif">Correct O vs wrong O→D prediction</text>
+
+<!-- correct O -->
+<rect x="20" y="140" width="56" height="56" rx="6" fill="#9FE1CB" stroke="#1D9E75" stroke-width="1"/>
+<text x="48" y="166" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="500" fill="#085041" font-family="sans-serif">O</text>
+<text x="48" y="204" text-anchor="middle" font-size="10" fill="#085041" font-family="sans-serif">correct (O)</text>
+
+<!-- SHAP for correct O -->
+<rect x="82" y="140" width="56" height="56" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+<!-- distributed oval positive -->
+<ellipse cx="110" cy="168" rx="20" ry="14" fill="none" stroke="#E24B4A" stroke-width="2" opacity="0.7"/>
+<text x="110" y="204" text-anchor="middle" font-size="10" fill="#A32D2D" font-family="sans-serif">SHAP (loop)</text>
+
+<!-- vs label -->
+<text x="160" y="172" text-anchor="middle" font-size="14" font-weight="500" fill="#712B13" font-family="sans-serif">vs</text>
+
+<!-- wrong O -->
+<rect x="180" y="140" width="56" height="56" rx="6" fill="#F09595" stroke="#A32D2D" stroke-width="1"/>
+<text x="208" y="166" text-anchor="middle" dominant-baseline="central" font-size="26" font-weight="500" fill="#501313" font-family="sans-serif">O</text>
+<text x="208" y="204" text-anchor="middle" font-size="10" fill="#A32D2D" font-family="sans-serif">wrong (→D)</text>
+
+<!-- SHAP for wrong O -->
+<rect x="242" y="140" width="56" height="56" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+<!-- vertical edge positive for D -->
+<rect x="258" y="148" width="6" height="40" rx="2" fill="#E24B4A" opacity="0.8"/>
+<text x="270" y="204" text-anchor="middle" font-size="10" fill="#A32D2D" font-family="sans-serif">SHAP (edge→D)</text>
+</svg>

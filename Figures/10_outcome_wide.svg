@@ -1,0 +1,74 @@
+<svg width="100%" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Panel 10 — Practical outcome (wide)</title>
+
+<!-- background -->
+<rect x="4" y="4" width="452" height="212" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="1"/>
+<!-- header -->
+<rect x="4" y="4" width="452" height="36" rx="12" fill="#3B6D11"/>
+<rect x="4" y="28" width="452" height="12" fill="#3B6D11"/>
+<circle cx="24" cy="22" r="12" fill="#27500A"/>
+<text x="24" y="22" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="white" font-family="sans-serif">10</text>
+<text x="234" y="22" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="white" font-family="sans-serif">Practical Outcome</text>
+
+<!-- ══════════════════════════════════════
+     LEFT COLUMN  x=14..200
+     Trophy centred at x=110, y=46..94
+     All text BELOW trophy, starting y=104
+     ══════════════════════════════════════ -->
+
+<!-- trophy — centred in left column, fully above y=94 -->
+<polygon points="110,48 115,63 131,63 118,72 123,87 110,78 97,87 102,72 89,63 105,63"
+         fill="#EF9F27" stroke="#BA7517" stroke-width="1"/>
+<!-- trophy base -->
+<rect x="102" y="87" width="16" height="5" rx="2" fill="#BA7517"/>
+<rect x="97"  y="92" width="26" height="4" rx="2" fill="#854F0B"/>
+
+<!-- metrics stacked below trophy — all text below y=100 -->
+<text x="110" y="108" text-anchor="middle" font-size="22" font-weight="500" fill="#27500A" font-family="sans-serif">99.08%</text>
+<text x="110" y="124" text-anchor="middle" font-size="10" fill="#3B6D11" font-family="sans-serif">test accuracy · 26 classes</text>
+<text x="110" y="142" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A" font-family="sans-serif">F1: 98.80%</text>
+<text x="110" y="158" text-anchor="middle" font-size="13" font-weight="500" fill="#27500A" font-family="sans-serif">AUC: 1.000</text>
+
+<!-- green comparison bar — fully below all left-column text -->
+<rect x="14" y="170" width="190" height="34" rx="6" fill="#C0DD97" stroke="#639922" stroke-width="0.8"/>
+<text x="109" y="183" text-anchor="middle" font-size="11" font-weight="500" fill="#173404" font-family="sans-serif">CNN outperforms MobileNetV2</text>
+<text x="109" y="197" text-anchor="middle" font-size="10" fill="#27500A" font-family="sans-serif">99.08%  vs  19.59%</text>
+
+<!-- vertical divider -->
+<line x1="210" y1="46" x2="210" y2="210" stroke="#C0DD97" stroke-width="0.8"/>
+
+<!-- ══════════════════════════════════════
+     RIGHT COLUMN  x=218..448
+     ══════════════════════════════════════ -->
+
+<!-- section title -->
+<text x="332" y="54" text-anchor="middle" font-size="12" font-weight="500" fill="#27500A" font-family="sans-serif">Key achievements</text>
+<line x1="218" y1="62" x2="448" y2="62" stroke="#C0DD97" stroke-width="0.5"/>
+
+<!-- pill row 1  y=68..92 -->
+<rect x="220" y="68" width="108" height="24" rx="12" fill="#EAF3DE" stroke="#639922" stroke-width="0.8"/>
+<text x="274" y="80" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#27500A" font-family="sans-serif">394,522 params · &lt;5MB</text>
+
+<rect x="336" y="68" width="110" height="24" rx="12" fill="#EAF3DE" stroke="#639922" stroke-width="0.8"/>
+<text x="391" y="80" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#27500A" font-family="sans-serif">Mobile / edge deployable</text>
+
+<!-- pill row 2  y=98..122 -->
+<rect x="220" y="98" width="108" height="24" rx="12" fill="#EAF3DE" stroke="#639922" stroke-width="0.8"/>
+<text x="274" y="110" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#27500A" font-family="sans-serif">Grad-CAM + SHAP verified</text>
+
+<rect x="336" y="98" width="110" height="24" rx="12" fill="#EAF3DE" stroke="#639922" stroke-width="0.8"/>
+<text x="391" y="110" text-anchor="middle" dominant-baseline="central" font-size="10" fill="#27500A" font-family="sans-serif">Reproducible pipeline</text>
+
+<!-- divider -->
+<line x1="218" y1="130" x2="448" y2="130" stroke="#C0DD97" stroke-width="0.5"/>
+
+<!-- applications  y=138..180 -->
+<text x="332" y="144" text-anchor="middle" font-size="11" font-weight="500" fill="#173404" font-family="sans-serif">Applications</text>
+<text x="332" y="160" text-anchor="middle" font-size="10" fill="#27500A" font-family="sans-serif">OCR  ·  Medical Rx  ·  Document digitisation</text>
+<text x="332" y="175" text-anchor="middle" font-size="10" fill="#27500A" font-family="sans-serif">Assistive technology  ·  Character recognition</text>
+
+<!-- key finding -->
+<line x1="218" y1="185" x2="448" y2="185" stroke="#C0DD97" stroke-width="0.5"/>
+<text x="332" y="200" text-anchor="middle" font-size="10" font-weight="500" fill="#173404" font-family="sans-serif">Domain mismatch prevents transfer learning benefit</text>
+
+</svg>
